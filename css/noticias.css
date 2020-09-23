@@ -1,0 +1,201 @@
+
+* {
+  background-color: #0b0b0b;
+  width: relative;
+  height: relative;
+  color: #f8f8ff;
+  font-family: "Merriweather", serif;
+
+}
+body::-webkit-scrollbar{
+	width: 0.50rem;
+}
+body::-webkit-scrollbar-track{
+	background: black;
+}
+body::-webkit-scrollbar-thumb{
+	background: red;
+}
+#container{
+  padding: 10px;
+  widows: 1em;
+  overflow: hidden;
+}
+.titulo {
+  color: #e9472b;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#bloque1 {
+  float: left;
+  margin: 40px;
+  width: 500px;
+  padding: 10px;
+  display: inline-block;
+}
+.titulo1 {
+  color: white;
+}
+
+#bloque2 {
+  float: left;
+  margin: 40px;
+  width: 500px;
+  padding: 10px;
+  font-family: cursive;
+  display: inline-block;
+}
+.titulo2 {
+  color: white;;
+}
+
+/*Esta parte es para editar el menu*/
+.social {
+    position: fixed;
+    left: 0;
+    top: 275px;
+    z-index:2000;
+}
+
+.social ul{
+    list-style:none;
+}
+
+.social ul li a{
+    display:inline-block;
+    color: #fff;
+    background: grey;
+    padding:10px 15px;
+    text-decoration:none;
+    -webkit-transition:all 800ms ease;
+    -o-transition:all 800ms ease;
+    transition:all 800ms ease;
+}
+
+.social ul li .icon-facebook {background:#3b5998;}
+.social ul li .icon-twitter {background:#00abf0;}
+.social ul li .icon-instagram {background:#d95232;}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #000;
+}
+/*
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?rp1lj8');
+  src:  url('fonts/icomoon.eot?rp1lj8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rp1lj8') format('truetype'),
+    url('fonts/icomoon.woff?rp1lj8') format('woff'),
+    url('fonts/icomoon.svg?rp1lj8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+*/
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0px;
+    z-index:2000;
+}
+
+.menu ul{
+    list-style:none;
+}
+
+.menu ul li a{
+    display:inline-block;
+    color: #fff;
+    background: grey;
+    padding:20px 15px;
+    text-decoration:none;
+    -webkit-transition:all 400ms ease;
+    -o-transition:all 400ms ease;
+    transition:all 400ms ease;
+}
+
+.menu ul li .icon-home2 {background:#333333;}
+.menu ul li .icon-dice {background:#333333;}
+.menu ul li .icon-pushpin {background:#333333;}
+.menu ul li .icon-tv {background:#333333;}
+.menu ul li .icon-newspaper {background:#333333;}
+
+.menu ul li a:hover{
+    padding: 20px 30px;
+    background: #000;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts2/icomoon.eot?v133xr');
+  src:  url('fonts2/icomoon.eot?v133xr#iefix') format('embedded-opentype'),
+    url('fonts2/icomoon.ttf?v133xr') format('truetype'),
+    url('fonts2/icomoon.woff?v133xr') format('woff'),
+    url('fonts2/icomoon.svg?v133xr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home2:before {
+  content: "\e901";
+}
+.icon-newspaper:before {
+  content: "\e904";
+}
+.icon-dice:before {
+  content: "\e915";
+}
+.icon-pushpin:before {
+  content: "\e946";
+}
+.icon-tv:before {
+  content: "\e95b";
+}
+div ul{
+  padding-top: 30px;
+  margin: -38px;
+}
+
